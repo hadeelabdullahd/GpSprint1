@@ -34,7 +34,7 @@ with open('tweets.csv', 'w') as csvfile:
        for i in range(0, len(questionTweets)):
            writer.writerow({'Question': questionTweets[i], 'Answer': answerTweets[i]})
 
-
+ 
 
 
 
